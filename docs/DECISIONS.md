@@ -92,8 +92,16 @@ Registro de decisões técnicas (ADR leve). Cada entrada: contexto, decisão, al
 - **Decisão:** `Nexus.Elevated.exe` é spawnado sob demanda e encerra após ociosidade configurável; o app principal não mantém serviço Windows residente.
 - **Consequências:** uma UAC por sessão (não por operação); nada rodando quando o app fecha.
 
-## ADR-015 — Repositório privado, licença a definir
+## ADR-015 — ~~Repositório privado~~ (REVOGADA por ADR-016)
 
 - **Contexto:** estágio inicial do produto.
-- **Decisão:** repositório **privado por padrão**; licença definida antes de qualquer abertura (FASE 8).
-- **Consequências:** sem publicação de builds públicas até decisão explícita do dono.
+- **Decisão original (2026-10-31, início do dia):** repositório **privado por padrão**; licença definida antes de qualquer abertura (FASE 8).
+- **Status:** **revogada no mesmo dia** pela ADR-016 — o mantenedor decidiu publicar o repositório aberto de imediato. Mantida aqui apenas para histórico: ADRs revogadas não são apagadas.
+
+## ADR-016 — Repositório público e filosofia "Knowledge Should Be Free"
+
+- **Contexto:** o mantenedor declarou que o projeto nasce para **compartilhar conhecimento**, não para gerar lucro, e quer a mentalidade e o "como usar" disponíveis para ajudar outras pessoas — inclusive iniciantes.
+- **Decisão (2026-10-31):** repositório **público** desde a FASE 1 (só documentação — não há código nem builds para expor). Filosofia completa em [PHILOSOPHY.md](PHILOSOPHY.md). Documentos de comunidade adicionados: [CONTRIBUTING.md](../CONTRIBUTING.md), [CODE_OF_CONDUCT.md](../CODE_OF_CONDUCT.md) (Contributor Covenant 2.1 adaptado), [SUPPORT.md](../SUPPORT.md), política de reporte de vulnerabilidades em [.github/SECURITY.md](../.github/SECURITY.md) e templates de issue/PR em [.github/](../.github/).
+- **Restrições da decisão:** nada sensível no repositório — sem senhas, API keys, tokens, arquivos `.env`, caminhos/usuários pessoais da máquina do mantenedor. Especificações de hardware do PC de referência são permitidas (aprovação explícita do mantenedor).
+- **Licença:** **a definir, sob avaliação documentada em PHILOSOPHY.md §6 (recomendação MIT, pendente de aprovação do mantenedor)**. Nenhum arquivo `LICENSE` será adicionado sem essa aprovação; o badge do README exibe "a definir" até lá.
+- **Consequências:** o projeto aceita contribuição externa desde antes do primeiro código; regras de PR em CONTRIBUTING.md passam a ser o contrato. Selos de status honestos ficam ainda mais críticos (público pode confundir "planejado" com "pronto" — o README precisa deixar claro).

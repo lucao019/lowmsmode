@@ -18,6 +18,8 @@ Sessão manual de engenharia em máquina de produção (2026-10-31) que originou
 | `.gitignore` completo (.NET/VS/Windows/segredos/dados privados) | ✔️ |
 | Repositório git inicializado com commits convencionais | ✔️ |
 | Contexto Kiro (.kiro/steering + .kiro/specs) | ✔️ |
+| Publicação do repositório (público — ADR-016) | ✔️ |
+| Filosofia e comunidade (PHILOSOPHY, CONTRIBUTING, CODE_OF_CONDUCT, SUPPORT, templates) | ✔️ |
 
 ## FASE 2 — Fundação técnica 📝
 
@@ -103,7 +105,7 @@ Sessão manual de engenharia em máquina de produção (2026-10-31) que originou
 | Publicação single-file self-contained win-x64 | 📝 |
 | Instalador Inno Setup (`installer/nexus.iss`) | 📝 |
 | Validação final dos 3 critérios de aceitação globais | ✔️ alvo |
-| Decisão de licença e abertura do repositório | 📝 |
+| Decisão de licença | 📝 (recomendação MIT em docs/PHILOSOPHY.md §6 — aguardando aprovação do mantenedor; repositório já é público por ADR-016) |
 
 ## Prioridades e dependências
 
