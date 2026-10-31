@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Guia de contribuição
+    url: https://github.com/lucao019/lowmsmode/blob/main/CONTRIBUTING.md
+    about: Antes de abrir issue, veja como contribuir (iniciantes são bem-vindos).
+  - name: Reporte de vulnerabilidade
+    url: https://github.com/lucao019/lowmsmode/security/advisories/new
+    about: NUNCA abra issue pública para vulnerabilidades — use Security Advisories (privado).
+  - name: Suporte / onde pedir ajuda
+    url: https://github.com/lucao019/lowmsmode/blob/main/SUPPORT.md
+    about: Onde perguntar e como fazer um bom relato.
