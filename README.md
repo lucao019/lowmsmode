@@ -1,6 +1,6 @@
 # NEXUS OPTIMIZER
 
-> Plataforma profissional de otimização do Windows 11 para gaming competitivo, desenvolvimento de software, monitoramento de hardware, manutenção do sistema e engenharia de desempenho.
+> Seu Windows 11 rodando do jeito que deveria: rápido, limpo e medido de verdade — sem mágica, sem promessa vazia.
 
 ![Status](https://img.shields.io/badge/status-planejamento-blueviolet)
 ![Plataforma](https://img.shields.io/badge/plataforma-Windows%2011-blue)
@@ -9,43 +9,53 @@
 
 ---
 
-## O que é o NEXUS
+## O que é o NEXUS (explicando direito)
 
-O NEXUS OPTIMIZER é um aplicativo desktop para Windows 11 que une, em um único painel profissional:
+Todo mundo já viu aqueles programas de "otimizar PC" que prometem deixar a máquina turbinada, mostram uma barrinha bonita... e no fim ninguém sabe o que eles realmente fizeram. Alguns até quebram o Windows.
 
-- **Diagnóstico real de sistema** — hardware, software, serviços, integridade.
-- **Monitoramento contínuo** — CPU, GPU, RAM, disco, rede, temperaturas.
-- **Otimização guiada e auditável** — cada alteração é medida, registrada e reversível.
-- **Perfis de uso** — Gaming competitivo (PERFIL A) e Desenvolvimento/IA (PERFIL B).
-- **Benchmarks honestos** — antes/depois em condições controladas, sem promessas vazias.
-- **Limpeza segura** — sem "cleaners genéricos", sem deleções cegas.
+O **NEXUS OPTIMIZER** nasceu para ser o oposto disso: um aplicativo para Windows 11 que mantém seu PC saudável de forma **transparente**. Ele mostra o que está acontecendo na sua máquina, sugere melhorias explicando **o porquê** de cada uma, aplica com segurança, **mede o resultado de verdade** e, se algo não ajudar, desfaz com um clique.
 
-Ele nasceu de uma engenharia de otimização real feita manualmente em uma máquina de produção (limpeza de 51 GB, remoção de 15 órfãos de registro com backup individual, correção de contadores de desempenho corrompidos e tuning de gaming validado). O aplicativo transforma essa metodologia em produto.
+Ele não é teoria: nasceu de uma otimização real feita à mão num PC de uso diário (31/10/2026), com resultados medidos:
 
-## Princípios inegociáveis
-
-1. **Nunca inventar métricas.** Se um sensor não está disponível, a UI mostra "indisponível" — nunca um valor falso.
-2. **Tudo é reversível.** Toda mutação exige snapshot/backup antes de aplicar e gera entrada de auditoria.
-3. **Sem promessas de FPS.** Otimizações são justificadas tecnicamente e validadas por medição; se não houver ganho mensurável, reverte.
-4. **Não tocar em**: Defender, Windows Update, Firewall, anti-cheat de jogos, BIOS, overclock/undervolt do usuário.
-5. **Sem admin por padrão.** O app principal roda sem elevação; operações privilegiadas passam por um helper separado com whitelist.
-
-## Principais módulos (planejado)
-
-| Módulo | O que faz |
+| O que foi feito na mão | Resultado real |
 |---|---|
-| **Dashboard** | Visão geral: saúde do sistema, alertas, ações recomendadas |
-| **System Monitor** | CPU/GPU/RAM/disco/rede/temperaturas em tempo real com gráficos |
-| **Gaming Optimizer** | Perfil competitivo PUBG: anti-stutter, frametime estável, latência de entrada |
-| **Development Mode** | Otimização do ambiente dev: Kiro, VS Code, Python, Node, Git, Ollama/Qwen3, Docker |
-| **System Cleaner** | Limpeza seletiva de caches/temps/lixeira/WinSxS — com classificação de risco |
-| **Windows Tweaks** | Catálogo de ajustes SAFE / ADVANCED / EXPERT, cada um com justificativa e rollback |
-| **Security & Restore** | Pontos de restauração, catálogo de backups, auditoria e rollback centralizados |
-| **Benchmark Lab** | Medição antes/depois com condições controladas e relatórios comparativos |
+| Limpeza seletiva de disco (caches, temporários, componentes antigos do Windows) | **51,3 GB liberados** no SSD |
+| Remoção de 15 programas "fantasmas" da lista de instalados (com backup individual de cada um) | 15/15 corretos, zero erro |
+| Ajustes para jogos (energia, captura em segundo plano, rede) | Aplicados **com script completo para desfazer tudo** |
+| Reparo dos medidores de desempenho do Windows, que estavam quebrados | Causa-raiz encontrada e corrigida |
 
-Todas as funcionalidades acima estão **planejadas** — nada está implementado ainda. Status real de cada item em [docs/ROADMAP.md](docs/ROADMAP.md).
+O NEXUS transforma esse trabalho, que hoje exige um técnico experiente, em um app que qualquer pessoa consegue usar com segurança.
 
-## Stack tecnológica
+## Para quem é
+
+- **Quem joga competitivo** (ex.: PUBG): menos travadinhas, tempo de quadro estável e o PC focado no jogo — sem gambiarras perigosas.
+- **Quem programa e usa IA local**: VS Code, Python, Node, Docker, Ollama/Qwen3 no mesmo Windows sem o PC engasgar.
+- **Quem só quer um PC rápido e confiável**: você não precisa entender de registro ou serviços — o app explica tudo em português claro.
+
+## O que ele faz por você
+
+| Módulo | Em linguagem simples |
+|---|---|
+| **Painel** | Como está a saúde do seu PC, em uma olhada |
+| **Monitor** | CPU, placa de vídeo, memória, disco e rede em tempo real, com gráficos |
+| **Gaming** | Deixa o PC pronto pra jogar: energia máxima, menos coisas roubando desempenho |
+| **Modo Dev** | Organiza o ambiente de programação e ajusta IA local ao seu hardware |
+| **Limpeza** | Remove lixo de verdade (caches, temporários) — mostra antes **o que e quanto** vai apagar |
+| **Ajustes do Windows** | Catálogo de melhorias com explicação, nível de risco e caminho de volta |
+| **Segurança & Restauração** | Pontos de restauração, histórico de tudo que o app mudou e botão de desfazer |
+| **Laboratório de Medições** | Mede o PC antes e depois, em condições iguais, e diz com honestidade se melhorou |
+
+> Tudo isso está **planejado e documentado** — o app ainda não foi programado. O status honesto de cada item está em [docs/ROADMAP.md](docs/ROADMAP.md).
+
+## Os 5 compromissos (não negociamos)
+
+1. **Número falso, nunca.** Se um medidor não funciona, o app diz "indisponível" e por quê — nunca inventa valor.
+2. **Tudo tem volta.** Antes de mudar qualquer coisa, o app guarda o estado anterior. Desfazer é um clique.
+3. **Zero promessa de FPS.** Melhoria se prova medindo; se não melhorou, o próprio app sugere desfazer.
+4. **Ele não mexe no que não deve**: antivírus do Windows, Windows Update, Firewall, anti-cheat de jogos e ajustes de BIOS/overclock ficam intocados.
+5. **Sem exigir "administrador" o tempo todo.** O app roda normal; só pede permissão elevada para o estritamente necessário, um item por vez.
+
+## Stack tecnológica (para quem é da área)
 
 | Camada | Escolha |
 |---|---|
@@ -54,14 +64,14 @@ Todas as funcionalidades acima estão **planejadas** — nada está implementado
 | MVVM | CommunityToolkit.Mvvm |
 | Gráficos | LiveCharts2 |
 | DI / Hosting | Microsoft.Extensions.Hosting |
-| Logging | Serilog (rolling file) |
+| Logging | Serilog (rolling file, 100% local) |
 | Persistência | SQLite (Microsoft.Data.Sqlite + Dapper) |
-| GPU | NvAPIWrapper (sem admin, sem driver kernel) |
-| Temperaturas (opcional) | LibreHardwareMonitorLib como **plugin isolado** (exige admin) |
-| Instalador | Inno Setup, publicação single-file self-contained `win-x64` |
-| Operações elevadas | `Nexus.Elevated.exe` — helper separado com whitelist + named pipe |
+| GPU | NvAPIWrapper (sem admin) |
+| Temperaturas (opcional) | LibreHardwareMonitorLib como **plugin isolado** |
+| Instalador | Inno Setup, single-file self-contained `win-x64` |
+| Operações elevadas | `Nexus.Elevated.exe` — helper com whitelist + named pipe |
 
-Racional completo em [docs/DECISIONS.md](docs/DECISIONS.md) e [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+Privacidade não é um detalhe: **nenhum dado sai do seu PC** — sem telemetria, sem analytics, sem nuvem.
 
 ## Arquitetura (visão rápida)
 
@@ -108,11 +118,11 @@ Detalhes em [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 | 🧪 Testado | Com testes automatizados |
 | ✔️ Validado | Medido em máquina real |
 
-Hoje: **tudo 📝 Planejado.**
+Hoje: **tudo 📝 Planejado.** Quando mudar, este arquivo muda junto.
 
 ## Instalação (futura)
 
-Quando a primeira build existir, a instalação será via Inno Setup (`installer/`). Não há build publicada ainda — este repositório contém apenas planejamento e documentação.
+Quando a primeira build existir, a instalação será via Inno Setup (`installer/`). Não há build publicada ainda — este repositório contém planejamento e documentação.
 
 ## Desenvolvimento
 
@@ -126,4 +136,4 @@ O contexto permanente para sessões do Kiro está em [.kiro/](.kiro/).
 
 ## Licença
 
-A definir. Repositório **privado** até decisão contrária.
+A definir.
