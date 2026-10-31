@@ -1,6 +1,11 @@
 # NEXUS OPTIMIZER
 
 > Seu Windows 11 rodando do jeito que deveria: rápido, limpo e medido de verdade — sem mágica, sem promessa vazia.
+>
+> **CONTROL YOUR SYSTEM. UNLOCK YOUR PERFORMANCE.**
+> **KNOWLEDGE IS MEANT TO BE SHARED.**
+
+> Construído com conhecimento compartilhado, colaboração e respeito pela comunidade de tecnologia. Projeto independente, **sem fins lucrativos**, feito para ajudar pessoas a entender, otimizar e aproveitar melhor seus computadores. Veja [docs/PHILOSOPHY.md](docs/PHILOSOPHY.md).
 
 ![Status](https://img.shields.io/badge/status-planejamento-blueviolet)
 ![Plataforma](https://img.shields.io/badge/plataforma-Windows%2011-blue)
@@ -104,6 +109,24 @@ Detalhes em [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 | [docs/DEVELOPMENT_MODE.md](docs/DEVELOPMENT_MODE.md) | Módulo Development/IA |
 | [docs/HARDWARE_MONITORING.md](docs/HARDWARE_MONITORING.md) | Monitoramento e diagnóstico |
 | [docs/BENCHMARK.md](docs/BENCHMARK.md) | Estratégia de medição |
+| [docs/PHILOSOPHY.md](docs/PHILOSOPHY.md) | Filosofia, política não comercial e avaliação de licença |
+
+## Comunidade e contribuição
+
+Este projeto acredita que **conhecimento deve ser compartilhado** — e que iniciante não é carga, é futuro colaborador. Toda contribuição conta: código, documentação, tradução, revisão de texto, relato de bug bem escrito ou só uma boa ideia.
+
+| Documento | Conteúdo |
+|---|---|
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Como contribuir (por nível — de iniciante sem código a avançado) |
+| [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Regras de convivência (resumindo: respeito, e "pergunta boba" não existe) |
+| [SUPPORT.md](SUPPORT.md) | Onde pedir ajuda |
+| [.github/SECURITY.md](.github/SECURITY.md) | Como reportar vulnerabilidades (em privado, nunca em issue pública) |
+
+## Colaboradores
+
+- **[@lucao019](https://github.com/lucao019)** — criador e mantenedor; caso real de origem (FASE 0) e decisões de produto.
+
+Toda contribuição relevante (código, docs, testes, tradução, relatos, sugestões) é reconhecida aqui — conforme [docs/PHILOSOPHY.md §9](docs/PHILOSOPHY.md).
 
 ## Status de desenvolvimento
 
@@ -136,4 +159,9 @@ O contexto permanente para sessões do Kiro está em [.kiro/](.kiro/).
 
 ## Licença
 
-A definir.
+**Em avaliação** — a proposta técnica (MIT, com comparação a Apache-2.0 e GPLv3) está documentada em [docs/PHILOSOPHY.md §6](docs/PHILOSOPHY.md) e aguarda aprovação do mantenedor. Nenhuma licença será adicionada arbitrariamente.
+
+---
+
+> Se alguém aprender programação estudando este código, já existe um resultado positivo.
+> **Não estamos construindo conhecimento para guardá-lo. Estamos construindo para compartilhá-lo.**
