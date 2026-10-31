@@ -1,0 +1,85 @@
+# ============================================================
+# NEXUS OPTIMIZER — .NET / Visual Studio / Windows
+# ============================================================
+
+# --- Build .NET ---
+bin/
+obj/
+out/
+[Bb]uild/
+publish/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# --- Visual Studio / Rider / VS Code ---
+.vs/
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.idea
+*.DotSettings.user
+
+# --- Testes ---
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+BenchmarkDotNet.Artifacts/
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.temp
+*.lnk
+
+# --- Logs locais ---
+logs/
+*.log
+log-*.txt
+log-*.csv
+
+# --- Segredos e configurações pessoais (NUNCA versionar) ---
+*.env
+.env*
+!*.env.example
+secrets*.json
+appsettings.*.Local.json
+appsettings.Local.json
+*.pfx
+*.p12
+*.key
+*.pem
+*.token
+*credentials*
+*Credentials*
+
+# --- Dados privados da máquina de desenvolvimento ---
+machine-info*.json
+hardware-snapshot*.json
+diagnostico-*.csv
+diagnostico-*.txt
+backup-registro/
+*.reg
+
+# --- Installer ---
+installer/output/
+*.iss.temp
+
+# --- Miscelânea ---
+*.bak
+*.orig
+*.rej
+*.swp
+*~
