@@ -31,6 +31,7 @@ Identidade visual e experiência do usuário. Framework: WPF + [`Wpf.Ui`](https:
 │ Painel   │                                     │
 │ Monitor  │         Área do módulo              │
 │ Gaming   │    (cards, gráficos, tabelas)       │
+│ Guardian │                                     │
 │ Dev      │                                     │
 │ Cleaner  │                                     │
 │ Tweaks   │                                     │
@@ -46,6 +47,7 @@ Identidade visual e experiência do usuário. Framework: WPF + [`Wpf.Ui`](https:
 | **Painel** | Saúde geral: alertas reais, integridade de telemetria, ações recomendadas (só após diagnóstico) |
 | **Monitor** | CPU/GPU/RAM/disco/rede/temperaturas com gráficos LiveCharts2 em tempo real |
 | **Gaming** | Perfil PUBG competitivo, checklists guiados, estado dos tweaks do perfil |
+| **Guardian** | Resource Guardian: processos por impacto, detecção de IA local, Pre-Flight, recomendações e histórico (docs/RESOURCE_GUARDIAN.md §9) |
 | **Dev** | Ferramentas detectadas, limites sugeridos para modelos locais (Ollama/Qwen3), tweaks de ambiente |
 | **Cleaner** | Categorias com dry-run, tamanho estimado, classificação de risco |
 | **Tweaks** | Catálogo SAFE/ADVANCED/EXPERT com filtros e busca |

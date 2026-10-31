@@ -65,6 +65,18 @@ graph TD
 | **Nexus.Optimization** | Catálogo de tweaks SAFE/ADVANCED/EXPERT + dependências entre tweaks |
 | **Nexus.Security** | Pontos de restauração, backups por operação, log de auditoria, rollback |
 | **Nexus.Benchmark** | Sessões de medição, comparação antes/depois, critérios de significância |
+
+**Módulos do Resource Guardian** (docs/RESOURCE_GUARDIAN.md — FASE 6B):
+
+| Projeto | Responsabilidade |
+|---|---|
+| **Nexus.ProcessScanner** | Snapshot de processos: PID, pai, assinatura, CPU/RAM/commit/I/O/GPU por processo, correlação com serviços |
+| **Nexus.ApplicationInventory** | Inventário de instalados (3 hives Uninstall, Store, SCM, inicialização, tarefas agendadas) + diff de re-inventário |
+| **Nexus.AIIntegration** | `ILocalAIProvider` + providers de IA local (Ollama, LM Studio, ComfyUI…) — APIs oficiais em loopback apenas |
+| **Nexus.ResourceGuardian** | Classificação de impacto, motor de regras determinísticas, recomendações explicáveis, perfis de recursos |
+| **Nexus.GamingPreflight** | Fluxo Pre-Flight de 7 etapas, Game Mode automático, restauração pós-jogo |
+| **Nexus.ResourceMonitor** | Camada de amostragem adaptativa em sessão de jogo, delegando coleta a `Nexus.Monitoring` |
+| **Nexus.RestartManager** | Restart controlado de app/serviço; recomendação excepcional (nunca automática) de reboot do Windows |
 | **Nexus.Persistence** | Schema SQLite, migrações, repositórios Dapper |
 | **Nexus.Elevated** | EXE helper privilegiado (ver §5) |
 

@@ -46,6 +46,7 @@ O NEXUS transforma esse trabalho, que hoje exige um técnico experiente, em um a
 | **Gaming** | Deixa o PC pronto pra jogar: energia máxima, menos coisas roubando desempenho |
 | **Modo Dev** | Organiza o ambiente de programação e ajusta IA local ao seu hardware |
 | **Limpeza** | Remove lixo de verdade (caches, temporários) — mostra antes **o que e quanto** vai apagar |
+| **Guardian** | Gerente de recursos inteligente: vê o que está aberto e pesado (inclusive IAs locais), prepara o PC antes do jogo e devolve tudo depois — sempre pedindo sua autorização |
 | **Ajustes do Windows** | Catálogo de melhorias com explicação, nível de risco e caminho de volta |
 | **Segurança & Restauração** | Pontos de restauração, histórico de tudo que o app mudou e botão de desfazer |
 | **Laboratório de Medições** | Mede o PC antes e depois, em condições iguais, e diz com honestidade se melhorou |
@@ -109,6 +110,7 @@ Detalhes em [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 | [docs/DEVELOPMENT_MODE.md](docs/DEVELOPMENT_MODE.md) | Módulo Development/IA |
 | [docs/HARDWARE_MONITORING.md](docs/HARDWARE_MONITORING.md) | Monitoramento e diagnóstico |
 | [docs/BENCHMARK.md](docs/BENCHMARK.md) | Estratégia de medição |
+| [docs/RESOURCE_GUARDIAN.md](docs/RESOURCE_GUARDIAN.md) | Resource Guardian: gerência de processos, IA local e Pre-Flight de jogo |
 | [docs/PHILOSOPHY.md](docs/PHILOSOPHY.md) | Filosofia, política não comercial e avaliação de licença |
 
 ## Comunidade e contribuição

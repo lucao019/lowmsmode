@@ -38,7 +38,7 @@ Plano de implementação da FASE 2 derivado de `requirements.md` + `design.md`. 
   - _Requirements: 7.1, 7.2, 7.3_
 
 - [ ] 7. Shell WPF de navegação
-  - `MainWindow` com `Wpf.Ui` NavigationView, tema escuro, 9 itens de navegação (docs/UI_UX.md §3) com páginas placeholder seladas "📝 Planejado".
+  - `MainWindow` com `Wpf.Ui` NavigationView, tema escuro, 10 itens de navegação (docs/UI_UX.md §3) com páginas placeholder seladas "📝 Planejado".
   - Detecção de elevação no startup com aviso (Req 5.1); banners e toasts básicos.
   - _Requirements: 5.1, 5.2, 5.3_
 

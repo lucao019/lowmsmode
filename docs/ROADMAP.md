@@ -88,6 +88,22 @@ Sessão manual de engenharia em máquina de produção (2026-10-31) que originou
 
 **Critério de saída:** perfil Gaming aplica/reverte ponta a ponta; aceitação global 1 cumprida em máquina real para todos os SAFE.
 
+## FASE 6B — Resource Guardian & Gaming Pre-Flight (RF-RG) 📝
+
+Documento normativo: [RESOURCE_GUARDIAN.md](RESOURCE_GUARDIAN.md) · spec: `.kiro/specs/resource-guardian/`
+
+| Item | Status |
+|---|---|
+| RF-RG-01 Inventário de aplicações (instalado × em execução × consumindo), sem varredura de arquivos pessoais | 📝 |
+| RF-RG-02 Process Scanner com classificação de impacto por métricas + contexto | 📝 |
+| RF-RG-03 Detecção de IA local via providers (`ILocalAIProvider`; Ollama primeiro) | 📝 |
+| RF-RG-04 Gaming Pre-Flight em 7 etapas com autorização item a item | 📝 |
+| RF-RG-05 Monitoramento adaptativo em sessão + Game Mode automático + restauração pós-jogo | 📝 |
+| RF-RG-06 Operações PAUSE/UNLOAD/GRACEFUL SHUTDOWN/RESTART via portão, com lista de proteção | 📝 |
+| RF-RG-07 10 cenários de teste normativos + benchmark do próprio módulo | 📝 |
+
+**Critério de saída:** os 13 critérios de aceitação de docs/RESOURCE_GUARDIAN.md §13 cumpridos; 10 cenários verdes; zero reinicialização automática.
+
 ## FASE 7 — Development Mode + Cleaner (RF-DEV, RF-CLN) 📝
 
 | Item | Status |
@@ -116,7 +132,8 @@ graph LR
     F3 --> F6[Otimização & Gaming]
     F4 --> F6
     F5 --> F6
-    F6 --> F7[Development & Cleaner]
+    F6 --> F6B[Resource Guardian]
+    F6B --> F7[Development & Cleaner]
     F5 --> F8[Distribuição]
 ```
 
