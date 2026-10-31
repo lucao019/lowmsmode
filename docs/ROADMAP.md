@@ -121,7 +121,7 @@ Documento normativo: [RESOURCE_GUARDIAN.md](RESOURCE_GUARDIAN.md) · spec: `.kir
 | Publicação single-file self-contained win-x64 | 📝 |
 | Instalador Inno Setup (`installer/nexus.iss`) | 📝 |
 | Validação final dos 3 critérios de aceitação globais | ✔️ alvo |
-| Decisão de licença | 📝 (recomendação MIT em docs/PHILOSOPHY.md §6 — aguardando aprovação do mantenedor; repositório já é público por ADR-016) |
+| Decisão de licença (MIT aprovada pelo mantenedor em 2026-10-31; `LICENSE` na raiz) | ✔️ |
 
 ## Prioridades e dependências
 

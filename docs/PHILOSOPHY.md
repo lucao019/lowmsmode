@@ -70,11 +70,11 @@ Candidatas avaliadas para um projeto comunitário sem fins lucrativos:
 | **Apache-2.0** | O mesmo que MIT, **mais** concessão expressa de patentes e exigência de NOTICE de modificações | Um pouco mais burocrática; protege contribuidores contra litígio de patentes | Quando houver preocupação com patentes ou contribuição corporativa |
 | **GPLv3** (referência) | Uso livre, mas **derivados devem permanecer open source** (copyleft) | Garante que melhorias voltem à comunidade; incompatível com alguns ecossistemas .NET fechados | Quando a prioridade máxima for impedir versões proprietárias |
 
-**Recomendação técnica (pendente de aprovação do mantenedor): MIT.**
+**Recomendação técnica: MIT — ✔️ APROVADA pelo mantenedor em 2026-10-31.**
 
 Motivos: alinhamento direto com "knowledge should be free" (mínima fricção para estudar, usar e reutilizar), é a licença mais compreendida por iniciantes, combina com o ecossistema .NET (as próprias dependências do projeto — Wpf.Ui, CommunityToolkit.Mvvm, LiveCharts2, Dapper — são MIT ou Apache-2.0) e não impede futura migração se a comunidade pedir diferente. O risco aceito: alguém pode criar um derivado comercial — o projeto vive da comunidade, não da exclusividade do código.
 
-> Nenhum arquivo `LICENSE` será adicionado sem aprovação expressa do mantenedor.
+> Licença **MIT adotada** (arquivo `LICENSE` na raiz) após aprovação expressa do mantenedor. Qualquer mudança futura de licenciamento exigiria nova decisão expressa dele.
 
 ## 7. Privacidade e autonomia dos usuários
 

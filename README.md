@@ -10,7 +10,7 @@
 ![Status](https://img.shields.io/badge/status-planejamento-blueviolet)
 ![Plataforma](https://img.shields.io/badge/plataforma-Windows%2011-blue)
 ![.NET](https://img.shields.io/badge/.NET-10%20LTS-purple)
-![Licença](https://img.shields.io/badge/licen%C3%A7a-a%20definir-lightgrey)
+![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-green)
 
 ---
 
@@ -161,7 +161,7 @@ O contexto permanente para sessões do Kiro está em [.kiro/](.kiro/).
 
 ## Licença
 
-**Em avaliação** — a proposta técnica (MIT, com comparação a Apache-2.0 e GPLv3) está documentada em [docs/PHILOSOPHY.md §6](docs/PHILOSOPHY.md) e aguarda aprovação do mantenedor. Nenhuma licença será adicionada arbitrariamente.
+**MIT** — aprovada pelo mantenedor em 2026-10-31 (veja a avaliação completa em [docs/PHILOSOPHY.md §6](docs/PHILOSOPHY.md)). Texto integral em [LICENSE](LICENSE). Use, estude, modifique e redistribua — só mantenha o copyright e a licença.
 
 ---
 
